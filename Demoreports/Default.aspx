@@ -11,7 +11,7 @@
 
     <div> 
 
-        <asp:DropDownList ID="DropDownList1" runat="server" Width="241px" Height="71px">
+        <asp:DropDownList ID="DropDownList1" runat="server" Width="226px" Height="51px">
              <asp:ListItem Text="Select Report" Value=""></asp:ListItem>
             <asp:ListItem Text="Employee Report" Value="Employeesapcr.rpt"></asp:ListItem>
             <asp:ListItem Text="Card Code Report" Value="Cardcodesapreport.rpt"></asp:ListItem>
@@ -23,6 +23,8 @@
     </div>
     <div> 
 
+        <br />
+
     </div>
     <div> 
 
@@ -32,7 +34,7 @@
 
     <div> 
 
-        <CR:CrystalReportViewer ID="CrystalReportViewer1" runat="server" AutoDataBind="true" />
+        <CR:CrystalReportViewer ID="CrystalReportViewer1" runat="server" AutoDataBind="true" HasRefreshButton="True" />
 
     </div>
 
